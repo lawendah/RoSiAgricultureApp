@@ -23,7 +23,8 @@
                     "Entity_[436856558185115]",
                     "Entity_[596052605927933]",
                     "Entity_[136086576195504]",
-                    "Entity_[59172324535132]"
+                    "Entity_[59172324535132]",
+                    "Instance_[37307234132796]/ContainerEntity"
                 ]
             },
             "EditorInspectorComponent": {
@@ -70,6 +71,33 @@
                 "$type": "LocalViewBookmarkComponent",
                 "Id": 4709333686948241310,
                 "LocalBookmarkFileName": "AgricultureLevel_1696872721922202807.setreg"
+            },
+            "NPCControlComponent": {
+                "$type": "GenericComponentWrapper",
+                "Id": 16913813189437942526,
+                "m_template": {
+                    "$type": "NPCControlComponent",
+                    "DetourNavigationEntityId": "Instance_[37307234132796]/Entity_[37315824067388]",
+                    "NavigationMeshEntityId": "Instance_[37307234132796]/Entity_[37315824067388]",
+                    "TopicConfiguration": {
+                        "QoS": {
+                            "Reliability": 1
+                        }
+                    },
+                    "PublishPositions": true,
+                    "NPCPositionTopicConfiguration": {
+                        "QoS": {
+                            "Reliability": 1
+                        }
+                    }
+                }
+            },
+            "NPCSpawner": {
+                "$type": "GenericComponentWrapper",
+                "Id": 7144931323641874034,
+                "m_template": {
+                    "$type": "NPCSpawner"
+                }
             },
             "ROS2FrameEditorComponent": {
                 "$type": "ROS2FrameEditorComponent",
@@ -1507,6 +1535,46 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[340953507857]"
+                }
+            ]
+        },
+        "Instance_[37307234132796]": {
+            "Source": "Prefabs/NPCControl.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/Dimensions/0",
+                    "value": 300.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/Dimensions/1",
+                    "value": 300.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/Dimensions/2",
+                    "value": 8.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/TranslationOffset/0",
+                    "value": 100.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/TranslationOffset/1",
+                    "value": 100.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/TranslationOffset/2",
+                    "value": 4.0
                 }
             ]
         },

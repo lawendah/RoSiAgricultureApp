@@ -1,0 +1,145 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "NPCControl",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6061865098215048094
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2061386878239301240
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13608918130893725301,
+                "Child Entity Order": [
+                    "Entity_[37315824067388]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12265590786147932615
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 11058753045478263605
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8075701999442173508
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13091255657252257901
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11818606800014743398
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9331301964318115145
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4581937249950773981,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[37315824067388]": {
+            "Id": "Entity_[37315824067388]",
+            "Name": "NPCControl",
+            "Components": {
+                "EditorAxisAlignedBoxShapeComponent": {
+                    "$type": "EditorAxisAlignedBoxShapeComponent",
+                    "Id": 5009425889911423608
+                },
+                "EditorDetourNavigationComponent": {
+                    "$type": "EditorDetourNavigationComponent",
+                    "Id": 17178270797496017448,
+                    "Navigation Mesh": "Entity_[37315824067388]"
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1602440433587685131
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3267254136061540461
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11277780476306834659
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 221505840635672294,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1007386377065240003
+                        },
+                        {
+                            "ComponentId": 9237421565497024149,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17583437968093544090,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 5009425889911423608,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 17178270797496017448,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1549460876574409769
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13245667653514252
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12449426067395035637
+                },
+                "EditorRecastNavigationMeshComponent": {
+                    "$type": "EditorRecastNavigationMeshComponent",
+                    "Id": 9237421565497024149,
+                    "Controller": {
+                        "Configuration": {
+                            "Editor Preview": true
+                        }
+                    }
+                },
+                "EditorRecastNavigationPhysXProviderComponent": {
+                    "$type": "EditorRecastNavigationPhysXProviderComponent",
+                    "Id": 17583437968093544090,
+                    "Controller": {
+                        "Config": {
+                            "Use Editor Scene": true
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14507570736043113084
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1007386377065240003,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}
