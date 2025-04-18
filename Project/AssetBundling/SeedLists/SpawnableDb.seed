@@ -163,6 +163,111 @@
             },
             "platformFlags": 2,
             "pathHint": "compostbag/compostbag.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{5B85951C-C10D-5A8F-BB28-07023796A9DE}"
+            },
+            "platformFlags": 2,
+            "pathHint": "prefabs/sensors/cameraorbbeck.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{826F24B4-D764-5355-8F07-2C27A2F4636F}"
+            },
+            "platformFlags": 2,
+            "pathHint": "prefabs/sensors/lidaros2.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{2A80787F-3B82-51F9-A359-EE9D857C144C}"
+            },
+            "platformFlags": 2,
+            "pathHint": "appletree/appletreesummer.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{69068BAC-9414-5EB6-A0D7-5435457BDA85}"
+            },
+            "platformFlags": 2,
+            "pathHint": "farmer/farmer.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{C580E8FE-CDBB-5249-894C-28CCB7EF6CF7}"
+            },
+            "platformFlags": 2,
+            "pathHint": "conesprayer.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{90C6E5F8-8F4F-5A99-85DB-3AD4C6AE9CAE}"
+            },
+            "platformFlags": 2,
+            "pathHint": "circularsprayer.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{EC9DF1D9-6AEF-5906-9B29-1B9D6201D1F7}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/trellispole.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{8421820C-1581-5126-B335-3FE143ADDB85}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/vineplantsummer1.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{727897B3-9B58-5DE8-8BB4-E0947976BBB2}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/vineplantsummer2.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{83ABB903-BC0A-5196-AB4B-A6FB8968DFED}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/vineplantsummer3.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{3BC66573-2EA0-59AF-9916-F54AC624E849}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/vineplantsummer4.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{0E623AE0-9383-5F69-8244-CB504EA48B74}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/vinerowsummer1.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{59874876-4F18-5894-BAC8-BA5240A16B8F}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grapevine/trellisrow.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{D1FB0D0F-D74C-5124-B0C5-85AC0ED499DD}"
+            },
+            "platformFlags": 2,
+            "pathHint": "backpackairsprayer/backpackairsprayer.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{E7617DFC-C54D-5E36-98DC-1DBA926E6958}"
+            },
+            "platformFlags": 2,
+            "pathHint": "backpackboomsprayer/backpackboomsprayer.prefabinfo"
         }
     ]
 }
