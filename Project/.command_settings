@@ -17,4 +17,4 @@ default.launcher.build.path = build/launcher
 option.default.output.path = build/release
 option.default.export.script = export_source_built_project.py
 
-seedlist.paths = AssetBundling/SeedLists/AgriSeed.seed;AssetBundling/SeedLists/DefaultLevel.seed;AssetBundling/SeedLists/SpawnableDb.seed
+seedlist.paths = AssetBundling/SeedLists/AgriSeed.seed;AssetBundling/SeedLists/DefaultLevel.seed;AssetBundling/SeedLists/SpawnableDb.seed;AssetBundling/SeedLists/Sensors.seed

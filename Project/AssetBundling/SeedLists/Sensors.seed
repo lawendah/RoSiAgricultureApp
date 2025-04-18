@@ -1,0 +1,84 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "AZStd::vector<SeedInfo, allocator>",
+    "ClassData": [
+        {
+            "assetId": {
+                "guid": "{0ACADD5C-A461-5878-BAF9-86BF7B0A827A}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosicustomcamerargb1280x1024/rosicustomcamerargb1280x1024.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{25A0EFF4-9BED-5363-A202-D17822763B53}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosicustomcamerargb1280x800/rosicustomcamerargb1280x800.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{153150A1-6838-5A89-A411-020CD8164424}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosicustomcamerargb1920x1080/rosicustomcamerargb1920x1080.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{BA8526B2-80A8-5A84-884F-FAD101063C4F}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosicustomlidar2d-highres-range40m/rosicustomlidar2d-highres-range40m.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{4BC948E5-5B85-5D87-9E59-96982406E28F}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosicustomlidar2d-lowres-range12m/rosicustomlidar2d-lowres-range12m.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{7EE13418-0BCC-58F6-BC5A-E34D00302113}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosignss/rosignss.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{7FC84005-E9B7-514C-B0DD-0FAF2D73F5AD}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosiimu/rosiimu.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{39FF1693-E1C7-5198-A781-619BBA7DAEFB}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosiousteros0-64/rosiousteros0-64.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{DC54F483-6814-5F1F-98DD-8BE8BEBB859C}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosiousteros1-64/rosiousteros1-64.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{9160D8DD-6E60-53A4-925B-72D5AB4FA0F5}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosivelodynevlp-16/rosivelodynevlp-16.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{7C4C374F-F8F6-5361-B16E-69B55FB24D40}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rosivelodynevls-128/rosivelodynevls-128.prefabinfo"
+        }
+    ]
+}

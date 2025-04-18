@@ -166,20 +166,6 @@
         },
         {
             "assetId": {
-                "guid": "{5B85951C-C10D-5A8F-BB28-07023796A9DE}"
-            },
-            "platformFlags": 2,
-            "pathHint": "prefabs/sensors/cameraorbbeck.prefabinfo"
-        },
-        {
-            "assetId": {
-                "guid": "{826F24B4-D764-5355-8F07-2C27A2F4636F}"
-            },
-            "platformFlags": 2,
-            "pathHint": "prefabs/sensors/lidaros2.prefabinfo"
-        },
-        {
-            "assetId": {
                 "guid": "{2A80787F-3B82-51F9-A359-EE9D857C144C}"
             },
             "platformFlags": 2,
@@ -257,17 +243,10 @@
         },
         {
             "assetId": {
-                "guid": "{D1FB0D0F-D74C-5124-B0C5-85AC0ED499DD}"
+                "guid": "{01C26C15-9669-5AB9-B45F-C10284AB6073}"
             },
             "platformFlags": 2,
-            "pathHint": "backpackairsprayer/backpackairsprayer.prefabinfo"
-        },
-        {
-            "assetId": {
-                "guid": "{E7617DFC-C54D-5E36-98DC-1DBA926E6958}"
-            },
-            "platformFlags": 2,
-            "pathHint": "backpackboomsprayer/backpackboomsprayer.prefabinfo"
+            "pathHint": "pistachiotree/pistachiotree.prefabinfo"
         }
     ]
 }
