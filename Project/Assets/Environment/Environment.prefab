@@ -146,97 +146,6 @@
                 }
             }
         },
-        "Entity_[14203943205333]": {
-            "Id": "Entity_[14203943205333]",
-            "Name": "PostFX",
-            "Components": {
-                "AZ::Render::EditorBloomComponent": {
-                    "$type": "AZ::Render::EditorBloomComponent",
-                    "Id": 1189399942053101878,
-                    "Controller": {
-                        "Configuration": {
-                            "Enabled": true,
-                            "Intensity": 0.30000001192092896
-                        }
-                    }
-                },
-                "AZ::Render::EditorExposureControlComponent": {
-                    "$type": "AZ::Render::EditorExposureControlComponent",
-                    "Id": 14727570004566965587,
-                    "Controller": {
-                        "Configuration": {
-                            "ManualCompensation": -0.30000001192092896
-                        }
-                    }
-                },
-                "AZ::Render::EditorPostFxLayerComponent": {
-                    "$type": "AZ::Render::EditorPostFxLayerComponent",
-                    "Id": 15987693151293165191
-                },
-                "AZ::Render::EditorSsaoComponent": {
-                    "$type": "AZ::Render::EditorSsaoComponent",
-                    "Id": 5830821319110835384,
-                    "Controller": {
-                        "Configuration": {
-                            "BlurConstFalloff": 0.08500000089406967
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8523898583106999416,
-                    "DisabledComponents": {
-                        "AZ::Render::EditorDeferredFogComponent": {
-                            "$type": "AZ::Render::EditorDeferredFogComponent",
-                            "Id": 18203248545257178084,
-                            "Controller": {
-                                "Configuration": {
-                                    "FogColor": [
-                                        0.8177767395973206,
-                                        0.9332723021507263,
-                                        1.0
-                                    ],
-                                    "FogEndDistance": 5000.0
-                                }
-                            }
-                        }
-                    }
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 6142523389023937946
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10984900597734212833
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2685369898195768347
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 1254034161414796991
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 18011381728601351143
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 16488037094038654732
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11007448853379514769
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 8007329873008327173,
-                    "Parent Entity": "Entity_[14212533139925]"
-                }
-            }
-        },
         "Entity_[14208238172629]": {
             "Id": "Entity_[14208238172629]",
             "Name": "Sun",
@@ -326,10 +235,10 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 2812888677607378478,
                     "Child Entity Order": [
-                        "Entity_[14203943205333]",
                         "Entity_[14199648238037]",
                         "Entity_[14208238172629]",
-                        "Entity_[14216828107221]"
+                        "Entity_[14216828107221]",
+                        "Instance_[134365093091473]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -429,6 +338,18 @@
                     }
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[134365093091473]": {
+            "Source": "Prefabs/Environment_PostFX.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[14212533139925]"
+                }
+            ]
         }
     }
 }

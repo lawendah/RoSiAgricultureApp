@@ -17,14 +17,15 @@
                 "Child Entity Order": [
                     "Entity_[32971353514888]",
                     "Instance_[33512153838704]/ContainerEntity",
+                    "Entity_[37362419162575]",
                     "Instance_[49893159105648]/ContainerEntity",
                     "Instance_[5601123711445]/ContainerEntity",
-                    "Instance_[14191058303445]/ContainerEntity",
                     "Entity_[436856558185115]",
                     "Entity_[596052605927933]",
                     "Entity_[136086576195504]",
                     "Entity_[59172324535132]",
-                    "Instance_[37307234132796]/ContainerEntity"
+                    "Instance_[37307234132796]/ContainerEntity",
+                    "Instance_[37346076842129]/ContainerEntity"
                 ]
             },
             "EditorInspectorComponent": {
@@ -596,6 +597,123 @@
                             -116.97012329101563
                         ]
                     }
+                }
+            }
+        },
+        "Entity_[37362419162575]": {
+            "Id": "Entity_[37362419162575]",
+            "Name": "Environment_DayNightCycle",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13614262208675680241
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1303830046137121375
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16515090471560076576,
+                    "Child Entity Order": [
+                        "Entity_[37366714129871]",
+                        "Instance_[799427056426447]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13788392294185683588
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9493664069425067215
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 853374137911272469
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10332860968035763065
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18276972320601831840
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6907616575071860330,
+                    "Parent Entity": "Entity_[340953507857]"
+                }
+            }
+        },
+        "Entity_[37366714129871]": {
+            "Id": "Entity_[37366714129871]",
+            "Name": "Light",
+            "Components": {
+                "AZ::Render::EditorAreaLightComponent": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 15743619475009437190,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 4,
+                            "Intensity": 90000.0,
+                            "AttenuationRadius": 948.6832885742188
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3985407688108790127
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18012429835877652537
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3311269597533147320
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6734421193513903876
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3262723556193783461
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17634122864857779523
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7155314518275278243
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 851684976810138274
+                },
+                "LmbrCentral::EditorQuadShapeComponent": {
+                    "$type": "LmbrCentral::EditorQuadShapeComponent",
+                    "Id": 11210772709451698486,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "QuadShape": {
+                        "Configuration": {
+                            "Width": 300.0,
+                            "Height": 300.0
+                        }
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17886979406704587021,
+                    "Parent Entity": "Entity_[37362419162575]"
                 }
             }
         },
@@ -1453,16 +1571,6 @@
                 }
             ]
         },
-        "Instance_[14191058303445]": {
-            "Source": "Assets/Environment/Environment.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[340953507857]"
-                }
-            ]
-        },
         "Instance_[151806298333546]": {
             "Source": "CompostBag/CompostBag.prefab",
             "Patches": [
@@ -1575,6 +1683,61 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[37315824067388]/Components/EditorAxisAlignedBoxShapeComponent/AxisAlignedBoxShape/Configuration/TranslationOffset/2",
                     "value": 4.0
+                }
+            ]
+        },
+        "Instance_[37346076842129]": {
+            "Source": "DayNightCycle/DayNightCycle.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1870480735662]/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1870480735662]/Components/TransformComponent/Transform Data/Rotate/1",
+                    "value": -41.4512825012207
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1870480735662]/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -89.99999237060547
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1866185768366]/Components/DayNightCycleEditorComponent/Configuration/SunIntensity",
+                    "value": 0.20000000298023224
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1866185768366]/Components/DayNightCycleEditorComponent/Configuration/NightSkylightExposure",
+                    "value": -2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1866185768366]/Components/DayNightCycleEditorComponent/Configuration/DaySkylightExposure",
+                    "value": 0.019999999552965164
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1866185768366]/Components/DayNightCycleEditorComponent/Configuration/SkyboxExposure",
+                    "value": -3.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1866185768366]/Components/DayNightCycleEditorComponent/Configuration/SunColor/0",
+                    "value": 0.9882352948188782
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1866185768366]/Components/DayNightCycleEditorComponent/Configuration/SunColor/2",
+                    "value": 0.7098039388656616
                 }
             ]
         },
@@ -5227,6 +5390,16 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
                     "value": -97.58390808105467
+                }
+            ]
+        },
+        "Instance_[799427056426447]": {
+            "Source": "Prefabs/Environment_PostFX.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[37362419162575]"
                 }
             ]
         },
